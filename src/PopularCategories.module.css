@@ -1,0 +1,36 @@
+.root{
+    display:flex;
+    flex-direction:column;
+    gap: 24px;
+    height:255px;
+    width: 80%;
+    margin-top:60px;
+}
+.listItem{
+    display:flex;
+    align-items: center;
+    width:195px;
+    height:76px;
+}
+.itemName{
+    padding-left:10px;
+    font-size:18px;
+}
+.list{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap:12px;
+}
+.itemPhoto{
+    height: 76px;
+    width: 76px;
+    background-image:url("assets/nonveg.jpg");
+    background-size: 76px 76px;
+    border-radius: 16px;
+
+}
+.heading{
+    font-size:24px;
+    font-weight:500;    
+}

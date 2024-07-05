@@ -1,0 +1,60 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.root{
+    position:relative;
+    height:390px;
+    width:267px;
+    border-radius:10px;
+    background-image: linear-gradient(rgba(0,0,0,.0) ,rgba(0,0,0,1)),url("./assets/meat.jpg");
+    background-size: 267px 390px;
+
+}
+.heading{
+    width:100%;
+}
+.taglist{
+    display:flex;
+    gap: 6px;
+    
+}
+.taglist *{
+    color:white;
+    font-size:.7rem;
+    background-color:rgba(255, 255, 255,15%);
+    border-radius: 1000px;
+    padding: 3px 7px;
+}
+.stat{
+    position: absolute;
+    display:flex;
+    flex-direction:column;
+    left:84%;
+    top:6%;
+}
+.statchild{
+    display:flex;
+    flex-direction: column;
+    width:calc(20px/267px);
+    height:calc(37px/390px);
+    align-items:center;
+    color:white;
+
+}
+.recipeTitle{
+    font-size:1.4rem;
+    color: white;
+}
+.titleContainer{
+    width:calc(239px/267px);
+    height:81px;
+    position:absolute;
+    left: 5%;
+    bottom: 9%;
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+
+}

@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+.root{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top:19px;
+
+}
+.logo{
+    display:flex;
+    gap:12px;
+    height:48px;
+    width:205px;
+    align-items:center;
+    padding-right: 60px;
+}
+.logoText{
+    font-size:24px;
+    font-weight:500;
+}
+.menu{
+    display:flex;
+    align-items:center;
+    width:468px;
+    height:48px;
+}
+.list{
+    width: 100%;
+    display:flex;
+    list-style-type: 'none';
+    align-items:center;
+    justify-content:space-evenly;
+}
+img{
+    size: 48px 48px;
+}
+.Navright{
+    display:flex;
+    justify-content:end;
+    width:467px;
+    height:48px;
+    gap:16px;
+
+}
+.profile{
+    size: 48px 48px;
+    border-radius:50%;
+}
+.addButton{
+    width:134px;
+    height:40px;
+    border-radius:1000px;
+    border-style:none;
+    background-color: #EC4700;
+    color:white;
+}

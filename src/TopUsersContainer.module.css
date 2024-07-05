@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.root{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin-top:83px;
+    width:80%;
+    height:726px;
+}
+.heading{
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:24px;
+}
+.topUsersCardContainer{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+.headingText{
+    font-size:24px;
+    font-weight:500;
+}
+.viewAllText{
+    color:#EC4700;
+}
